@@ -25,6 +25,8 @@ An interactive web application built with **React.js** that visually demonstrate
 Try it live 👉 [Sorting Visualizer - GitHub Pages](https://keshav-khandelwal.github.io/sorting-visualizer)
 
 ---
+![Sorting Visualizer Demo](https://raw.githubusercontent.com/keshav-khandelwal/sorting-visualizer/refs/heads/main/public/pic.png)
+
 
 
 ## 🛠️ Tech Stack
