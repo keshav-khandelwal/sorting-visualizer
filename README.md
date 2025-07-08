@@ -47,6 +47,33 @@ Each algorithm pushes steps into an animation array:
 These animations are then **executed using `setTimeout`** to simulate sorting in action.
 
 ---
+✅ To Do / Future Enhancements
+ Add Quick Sort and Heap Sort
+
+ Add Pause/Resume feature
+
+ Display time and space complexity
+
+ Add dark mode
+
+ Include step counter and comparison counter
+
+💡 Learning Objectives
+Strengthened understanding of DSA through hands-on implementation.
+
+Applied React state management and DOM manipulation techniques.
+
+Gained experience in creating interactive UIs and reusable components.
+
+🙌 Acknowledgements
+This project is part of my DSA + Web Development journey as I prepare for Software Development Engineer (SDE) roles.
+
+📬 Contact
+Keshav Khandelwal
+📧 Email: keshavkhandelwal.jwr@gmail.com
+🌐 Portfolio: https://keshav-khandelwal.github.io/KESHAV_PORTFOLIO/
+🔗 LinkedIn: https://www.linkedin.com/in/keshav-khandelwal-kk/
+🐙 GitHub: https://github.com/keshav-khandelwal
 
 ## 📂 Folder Structure
 
@@ -80,30 +107,4 @@ npm install
 # Start the local development server
 npm start
 
-✅ To Do / Future Enhancements
- Add Quick Sort and Heap Sort
 
- Add Pause/Resume feature
-
- Display time and space complexity
-
- Add dark mode
-
- Include step counter and comparison counter
-
-💡 Learning Objectives
-Strengthened understanding of DSA through hands-on implementation.
-
-Applied React state management and DOM manipulation techniques.
-
-Gained experience in creating interactive UIs and reusable components.
-
-🙌 Acknowledgements
-This project is part of my DSA + Web Development journey as I prepare for Software Development Engineer (SDE) roles.
-
-📬 Contact
-Keshav Khandelwal
-📧 Email: keshavkhandelwal.jwr@gmail.com
-🌐 Portfolio: https://keshav-khandelwal.github.io/KESHAV_PORTFOLIO/
-🔗 LinkedIn: https://www.linkedin.com/in/keshav-khandelwal-kk/
-🐙 GitHub: https://github.com/keshav-khandelwal
