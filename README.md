@@ -1,70 +1,109 @@
-# Getting Started with Create React App
+# 🚀 Sorting Visualizer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An interactive web application built with **React.js** that visually demonstrates popular sorting algorithms — ideal for mastering DSA concepts and frontend skills.
 
-## Available Scripts
+> ✨ Created with ❤️ by **Keshav Khandelwal**
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🎯 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🔢 **Sorting Algorithms Implemented:**
+  - 🫧 Bubble Sort
+  - 📥 Selection Sort
+  - 🔀 Merge Sort
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 🧠 **User Input**: Enter your own comma-separated numbers
+- 🎛️ **Speed Control**: Adjust sorting animation speed
+- 🎨 **Responsive UI**: Neumorphic, elegant interface with smooth transitions
+- 🎥 **Visual Feedback**: Real-time animated swaps and comparisons
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📸 Demo
 
-### `npm run build`
+Try it live 👉 [Sorting Visualizer - GitHub Pages](https://keshav-khandelwal.github.io/sorting-visualizer)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠️ Tech Stack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+| Tech       | Description                 |
+|------------|-----------------------------|
+| React.js   | Frontend Framework           |
+| JavaScript | Algorithm & Animation Logic |
+| CSS3       | Styling with Neumorphism     |
+| HTML5      | Structure                    |
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🧩 How It Works
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Each algorithm pushes steps into an animation array:
+- 🎨 Color change for comparisons
+- 🔄 Swap animation (if needed)
+- ✅ Final sorted elements marked in green
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+These animations are then **executed using `setTimeout`** to simulate sorting in action.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 📂 Folder Structure
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+sorting-visualizer/
+├── algorithm/
+│ ├── BubbleSort.js
+│ ├── MergeSort.js
+│ └── SelectionSort.js
+├── control/
+│ ├── Control.js
+│ └── Visualiser.js
+├── App.js
+├── App.css
+└── index.js
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📦 Installation & Setup
 
-### Analyzing the Bundle Size
+```bash
+# Clone the repository
+git clone https://github.com/keshav-khandelwal/sorting-visualizer.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Navigate into the project folder
+cd sorting-visualizer
 
-### Making a Progressive Web App
+# Install dependencies
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# Start the local development server
+npm start
 
-### Advanced Configuration
+✅ To Do / Future Enhancements
+ Add Quick Sort and Heap Sort
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+ Add Pause/Resume feature
 
-### Deployment
+ Display time and space complexity
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+ Add dark mode
 
-### `npm run build` fails to minify
+ Include step counter and comparison counter
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+💡 Learning Objectives
+Strengthened understanding of DSA through hands-on implementation.
+
+Applied React state management and DOM manipulation techniques.
+
+Gained experience in creating interactive UIs and reusable components.
+
+🙌 Acknowledgements
+This project is part of my DSA + Web Development journey as I prepare for Software Development Engineer (SDE) roles.
+
+📬 Contact
+Keshav Khandelwal
+📧 Email: keshavkhandelwal.jwr@gmail.com
+🌐 Portfolio: https://keshav-khandelwal.github.io/KESHAV_PORTFOLIO/
+🔗 LinkedIn: https://www.linkedin.com/in/keshav-khandelwal-kk/
+🐙 GitHub: https://github.com/keshav-khandelwal
