@@ -70,9 +70,13 @@ This project is part of my DSA + Web Development journey as I prepare for Softwa
 
 📬 Contact
 Keshav Khandelwal
+
 📧 Email: keshavkhandelwal.jwr@gmail.com
+
 🌐 Portfolio: https://keshav-khandelwal.github.io/KESHAV_PORTFOLIO/
+
 🔗 LinkedIn: https://www.linkedin.com/in/keshav-khandelwal-kk/
+
 🐙 GitHub: https://github.com/keshav-khandelwal
 
 ## 📂 Folder Structure
